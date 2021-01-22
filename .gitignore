@@ -8,3 +8,5 @@ themes/
 
 # exceptions
 !.gitkeep
+.idea/docsSubsCrypt.iml
+*.xml
