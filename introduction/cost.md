@@ -3,4 +3,4 @@ By eliminating third parties from transactions, you won’t need to pay any addi
 
 The following is an example of these fees in the US:
 
-![PayPal fee in the US](PayPal-Fee.png)
+![PayPal fee in the US](../images/PayPal-Fee.png)
