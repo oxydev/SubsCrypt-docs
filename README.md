@@ -12,4 +12,15 @@ The pop-up page will look like below:
 
 <img src="/images/Pop-Up.png" alt="pop-up page" width="400" />
 
+## SubsCrypt for Customers
+Sara is concerned about her privacy so she decides to buy a 1 month VPN service from Sam. She wants to be anonymous so when she finds out that Sam accepts cryptocurrencies as a method of payment she chooses SubsCrypt over PayPal in Sam's webbsite. After Sara chooses her plan on Sam's website, SubsCrypt pop-up page will be opened and she can check the details of the payment, then she has to enter a token and a passphrase that identifies her on SubsCrypt from now on. Then she can pay through her onlne wallet for her subscription.
 
+From now on Sara can use the VPN servise she has purchased by using her token and passphrase; she can also use her token and passphrase to login to our website, there she can see her personal dashboard which allows her to manage all her suscription in one place, she can renew her subscription or request a refund for them on her dashboard.
+
+Sara's dashboard looks like the following:
+
+<img src="/images/Main.png" alt="welcome page" width="800" />
+
+She'll be able to manage all her subscriptions on this page:
+
+<img src="/images/Subscriptions.png" alt="customer dashboard" width="800" />
