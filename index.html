@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>SubsCrypt Documentation</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+  <link rel="stylesheet" href="https://www.parity.io/assets/css/font-manifoldroboto.css?v=1c871864d6">
+  <link rel="stylesheet" href="./custom/custom.css">
 </head>
 <body>
   <div id="app"></div>
@@ -14,17 +16,36 @@
     window.$docsify = {
       name: 'SubsCrypt',
       repo: 'https://github.com/oxydev/SubsCrypt-docs/tree/master',
-      loadSidebar: true
+      loadSidebar: true,
+      loadNavbar: true,
+      themeable: {
+        readyTransition: true, // default
+        responsiveTables: true  // default
+      },
+      auto2top: true,
+      mergeNavbar: true,
+      search: {
+        noData: {
+          '/': 'No results!'
+        },
+        placeholder: {
+          '/': 'Search'
+        }
+      },
+      pagination: {
+        crossChapter: true
+      }
     }
   </script>
-   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-   <script src="//unpkg.com/docsify-pagination@2.4.0/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination@2.4.0/dist/docsify-pagination.min.js"></script>
    <script src="//unpkg.com/docsify-copy-code@2"></script>
    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
    <script src="//unpkg.com/prismjs/components/prism-rust.min.js"></script>
    <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <!-- Docsify v4 -->
+  <script defer type="text/javascript" src="//unpkg.com/monaco-editor@0.15.6/min/vs/loader.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script defer src="./custom/codeview.js"></script>
 </body>
 </html>
