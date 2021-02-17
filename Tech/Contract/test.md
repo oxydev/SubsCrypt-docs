@@ -1,18 +1,22 @@
 # Tests
-Testing is an important aspect of every blockchain project, so we have covered our code with fully code coverage. However, by developing the fornt-end of our project in next phasese the testing precedure can be easier.
+
+Testing is an important aspect of every blockchain project, so we have covered our code with fully (100%) code coverage. However, by developing the fornt-end of our project in next phasese the testing precedure can be easier.
 
 First of all you need to clone the repository, run:
+
 ```bash
 git clone https://github.com/oxydev/SubsCrypt-ink
 cd SubsCrypt-ink
 ```
 
 Then, you can run the tests with this line of code:
+
 ```bash
 cargo +nightly test
 ```
 
 So you will see this output:
+
 ```bash
 running 17 tests
 test subscrypt::tests::add_plan_works ... ok
@@ -40,11 +44,13 @@ test result: ok. 17 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fin
 # Building
 
 To build the wasm of your contract you can clone and change directory to the ink project of SubsCrypt and then you have to run this line:
+
 ```bash
 cargo +nightly contract build
 ```
 
 This command will take some minutes and the output will be sth like this:
+
 ```bash
 Your contract is ready. You can find it here:
 /root/test/SubsCrypt-ink/target/SubsCrypt.wasm
@@ -52,6 +58,7 @@ Your contract is ready. You can find it here:
 
 
 To build the metadata json of contract you can clone and change directory to the ink project of SubsCrypt and then you have to run this line:
+
 ```bash
 cargo +nightly contract generate-metadata
 ```
