@@ -247,4 +247,9 @@ Stats successfully retrieved.
 return whole records of a user related to a specefic provider
 ```
 <!-- tabs:end -->
+<!-- tabs:start -->
+#### ** Functions **
 
+[embedded-code-final](./lib.rs ':include :type=code embed-final')
+
+<!-- tabs:end -->
