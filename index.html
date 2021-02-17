@@ -18,6 +18,12 @@
       repo: 'https://github.com/oxydev/SubsCrypt-docs/tree/master',
       loadSidebar: true,
       loadNavbar: true,
+      tabs: {
+      
+      sync       : false,      // default
+      theme      : 'material', // default
+      
+    },
       themeable: {
         readyTransition: true, // default
         responsiveTables: true  // default
@@ -43,9 +49,8 @@
    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
    <script src="//unpkg.com/prismjs/components/prism-rust.min.js"></script>
    <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
-  <!-- Docsify v4 -->
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script defer type="text/javascript" src="//unpkg.com/monaco-editor@0.15.6/min/vs/loader.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script defer src="./custom/codeview.js"></script>
 </body>
 </html>
