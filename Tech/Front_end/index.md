@@ -1,3 +1,3 @@
-### Back-end libraries implementation for django and Node.js
+# front_end components
 
-These will be implemented in the third milestone.
+These will be implemented in the second milestone.
