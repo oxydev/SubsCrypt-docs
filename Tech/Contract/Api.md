@@ -217,7 +217,7 @@ return whole records of a user
 
 | Name | State mutability | Description | Params |
 | --- | --- | --- | --- |
-| retrieve_data_with_password | This function is used to get every subscription record of a user only related to a specific provider with their token and passphrase is set once they subscribe to their chosen plan of that provider | address of the user, address of provider, token, passphrase|
+| retrieve_data_with_password | view | This function is used to get every subscription record of a user only related to a specific provider with their token and passphrase is set once they subscribe to their chosen plan of that provider | address of the user, address of provider, token, passphrase|
 
 #### ** Response **
 
@@ -236,7 +236,7 @@ return whole records of a user related to a specefic provider
 
 | Name | State mutability | Description | Params |
 | --- | --- | --- | --- |
-| retrieve_data_with_wallet |This function is the same as the above function with a slight difference that it is used with user wallet to directly trigger the contract | address of provider|
+| retrieve_data_with_wallet | view | This function is the same as the above function with a slight difference that it is used with user wallet to directly trigger the contract | address of provider|
 
 #### ** Response **
 
