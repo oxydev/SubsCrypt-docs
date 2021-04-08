@@ -1,6 +1,6 @@
 # Technical Specification
 
-## This project contains three bsaical modules
+## This project contains three basic modules
 
 * Smart Contract
 * BackEnd RestAPI and wrapper libraries
