@@ -1,4 +1,10 @@
 # SubsCrypt Documentation
+
+This project is honored to be funded by Web3 Foundation grant program. You can find more info [here](https://github.com/w3f/Open-Grants-Program/blob/master/applications/SubsCrypt.md).
+
+
+<img src="images/web3 foundation_grants_badge_black.png" width="300"/> <img src="images/web3 foundation_grants_badge_white.png" width="300"/> 
+
 ## SubsCrypt for Providers
 Let's assume that Sam is a VPN provider. He owns a website on which he provides different VPN subscription plans such as VIP, Premium, etc with different durations such as 1 week, 1 month, 1 year, and so on. In order to access services on Sam's website, users have to create an account. Then for purchases, Sam uses PayPal which allows users to pay easily. However, he was forced to use a database to keep track of user payments and both Sam and the users had to trust the service that PayPal provides.
 
