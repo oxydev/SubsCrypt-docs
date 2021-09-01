@@ -26,11 +26,10 @@ const subscrypt = require('@oxydev/subscrypt');
 Now you can easily use the SubsCrypt library to get data from blockchain. Below are some examples:
 ```
 console.log(await subscrypt.getPlanData('5Dyu5YxLufavjPg8vP31BhKs5xz8ncdkQcNdGwf5XtW4C9Ym', 2));
-
 console.log(await subscrypt.checkSubscription('5Dyu5YxLufavjPg8vP31BhKs5xz8ncdkQcNdGwf5XtW4C9Ym','5Dyu5YxLufavjPg8vP31BhKs5xz8ncdkQcNdGwf5XtW4C9Ym', 2));
-
 console.log(await subscrypt.retrieveWholeDataWithPassword('5Dyu5YxLufavjPg8vP31BhKs5xz8ncdkQcNdGwf5XtW4C9Ym',"token", "pass_phrase"));
 ```
+
 More Samples will be added to the documents of project [here](https://oxydev.github.io/SubsCrypt-docs/#/).
 
 # Use SubsCrypt CLI
